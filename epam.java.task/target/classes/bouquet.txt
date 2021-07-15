@@ -1,0 +1,7 @@
+flower Роза 3 12.4 false RED 9 3
+flower Фиалка 4 37 false RED 11 4
+flower Гвоздика 5 57 false RED 15 2
+flower Тюльпан 7 11 false YELLOW 14 5
+flower Роза 7 13.4 false BLUE 12 4
+accessory WRAPPING_PAPER 2
+accessory RIBBONS 3
