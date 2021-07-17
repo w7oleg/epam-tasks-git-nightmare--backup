@@ -1,4 +1,5 @@
 # Все задачи по Java собраны в одном Maven проекте в директории epam.java.task
+# Задачи из javaStageTwo собраны в пакете javaStageTwo
 1. fundamentals
 2. classes
 3. cleancode
