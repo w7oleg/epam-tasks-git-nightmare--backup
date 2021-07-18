@@ -7,9 +7,9 @@
 
 javaStageTwo
 
-6. javaStageTwo.errorsAndExceptions
-7. javaStageTwo.ioFundamentals
-8. javaStageTwo.threads
+5. javaStageTwo.errorsAndExceptions
+6. javaStageTwo.ioFundamentals
+7. javaStageTwo.threads
 
 # fundamentals
  Main Task: 
