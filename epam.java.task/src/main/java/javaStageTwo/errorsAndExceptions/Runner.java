@@ -15,11 +15,11 @@ import java.util.Scanner;
 
 public class Runner {
     private final static StudentSubject ACADEMIC_SUBJECT_FOR_TEST = StudentSubject.PHILOSOPHY;
-    private final static int STUDENT_NUMBER_FOR_TEST = 7;
+    private final static int STUDENT_NUMBER_FOR_TEST = 6;
 
     private static void getAverageGradesOfStudent(University university) throws StudentWithoutAcademicSubjectsException, FacultyWithoutGroupsException,
             UniversityWithoutFacultiesException, GroupWithoutStudentsException {
-        Student student = UniversityAction.getStudentsOfUniversity(university).get(STUDENT_NUMBER_FOR_TEST);
+        Student student = UniversityAction.getStudentsOfUniversity(university).get(STUDENT_NUMBER_FOR_TEST+1);
         System.out.println("Средние оценки студента " + student.getName() + " " + student.getSurname() + "(ID " + student.getStudentIDNumber() + ")");
         System.out.println(StudentAction.getAverageGrades(student));
     }
@@ -38,16 +38,16 @@ public class Runner {
     private static void getAverageGradesOfGroups(University university) throws UniversityWithoutFacultiesException,
             FacultyWithoutGroupsException, GroupWithoutStudentsException {
         System.out.println("Средние оценки групп по предмету " + ACADEMIC_SUBJECT_FOR_TEST);
-        System.out.println("L001=" +
-                UniversityAction.getAverageGradeOfGroup(university, "L001", ACADEMIC_SUBJECT_FOR_TEST));
-        System.out.println("L002=" +
-                UniversityAction.getAverageGradeOfGroup(university, "L002", ACADEMIC_SUBJECT_FOR_TEST));
-        System.out.println("M001=" +
-                UniversityAction.getAverageGradeOfGroup(university, "M001", ACADEMIC_SUBJECT_FOR_TEST));
-        System.out.println("M002=" +
-                UniversityAction.getAverageGradeOfGroup(university, "M002", ACADEMIC_SUBJECT_FOR_TEST));
-        System.out.println("B001=" +
-                UniversityAction.getAverageGradeOfGroup(university, "B001", ACADEMIC_SUBJECT_FOR_TEST));
+        System.out.println("ES1=" +
+                UniversityAction.getAverageGradeOfGroup(university, "ES1", ACADEMIC_SUBJECT_FOR_TEST));
+        System.out.println("TG4=" +
+                UniversityAction.getAverageGradeOfGroup(university, "TG4", ACADEMIC_SUBJECT_FOR_TEST));
+        System.out.println("ET2=" +
+                UniversityAction.getAverageGradeOfGroup(university, "ET2", ACADEMIC_SUBJECT_FOR_TEST));
+        System.out.println("M21=" +
+                UniversityAction.getAverageGradeOfGroup(university, "M21", ACADEMIC_SUBJECT_FOR_TEST));
+        System.out.println("PO23=" +
+                UniversityAction.getAverageGradeOfGroup(university, "PO23", ACADEMIC_SUBJECT_FOR_TEST));
     }
 
     private static void getAverageGradeOfUniversity(University university) throws UniversityWithoutFacultiesException,
@@ -72,7 +72,7 @@ public class Runner {
             case 2:
                 System.out.println("Отсутсвие предметов у студента (должен быть хотя бы один)");
                 Student studentWithoutSubjects = new Student("Lev", "Lvov", EnumSet.noneOf(StudentSubject.class));
-                university.getFaculties().get(1).getGroup("L002").setStudent(studentWithoutSubjects);
+                university.getFaculties().get(1).getGroup("TG4").setStudent(studentWithoutSubjects);
                 System.out.println(StudentAction.getAverageGrades(studentWithoutSubjects));
                 break;
             case 3:

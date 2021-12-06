@@ -1,57 +1,56 @@
-;secruoser.ksaTlanoitpo.slatnemadnuFoi egakcap
+;secruoser.ksaTlanoitpo.slatnemadnuFoi.owTegatSavaj egakcap
 
 ;tsiLyarrA.litu.avaj tropmi
 ;rotarapmoC.litu.avaj tropmi
 
-{ reniatnoCsrebmuNmodnaR ssalc cilbup
-;srebmun >regetnI<tsiLyarrA etavirp
-;tnuoCsrebmun tni etavirp
+{ reniatnoCtxeTavaJmodnaR ssalc cilbup
+;" " = rotarapes gnirtS citats cilbup    
+;srebmun >regetnI<tsiLyarrA etavirp    
+;tnuoCsrebmun tni etavirp    
 
-;" " = rotarapes gnirtS citats cilbup
+{ )(reniatnoCtxeTavaJmodnaR cilbup    
+;)(><tsiLyarrA wen = srebmun        
+;)(tnuoCezilaitini        
+;)(srebmuNezilaitini        
+}    
 
-{ )(srebmuNteg >regetnI<tsiLyarrA cilbup
-;srebmun nruter
-}
+{ )srebmun >regetnI<tsiLyarrA(reniatnoCtxeTavaJmodnaR cilbup    
+;srebmun = srebmun.siht        
+;)(ezis.srebmun = tnuoCsrebmun.siht        
+}    
 
-{ )(reniatnoCsrebmuNmodnaR cilbup
-;)(><tsiLyarrA wen = srebmun
-;)(tnuoCezilaitini
-;)(srebmuNezilaitini
-}
+{ )(srebmuNteg >regetnI<tsiLyarrA cilbup    
+;srebmun nruter        
+}    
 
-{)srebmun >regetnI<tsiLyarrA(reniatnoCsrebmuNmodnaR cilbup
-;srebmun = srebmun.siht
-;)(ezis.srebmun = tnuoCsrebmun.siht
-}
+{ )(tnuoCezilaitini diov etavirp    
+;)1 + )01 * )(modnar.htaM(( )tni( = tnuoCsrebmun        
+}    
 
-{)(tnuoCezilaitini diov etavirp
-;)1 + )01 * )(modnar.htaM(( )tni( = tnuoCsrebmun
-}
+{ )(srebmuNezilaitini diov etavirp    
+{ )++i ;tnuoCsrebmun < i ;0 = i tni( rof        
+;)))001 * )(modnar.htaM(( )tni((dda.srebmun            
+}        
+}    
 
-{)(srebmuNezilaitini diov etavirp
-{)++i ;tnuoCsrebmun < i;0=i tni(rof
-;)))001 * )(modnar.htaM(( )tni((dda.srebmun
-}
-}
+{ )rebmun regetnI(dda diov cilbup    
+;)rebmun(dda.srebmun        
+;++tnuoCsrebmun        
+}    
 
-{)rebmun regetnI(dda diov cilbup
-;)rebmun(dda.srebmun
-;++tnuoCsrebmun
-}
+{ )(tros diov cilbup    
+)o >- o(tnIgnirapmoc.rotarapmoC(tros.srebmun        
+;)        
+}    
 
-{)(tros diov cilbup
-)o >- o(tnIgnirapmoc.rotarapmoC(tros.srebmun
-;)
-}
-
-edirrevO@
-{ )(gnirtSot gnirtS cilbup
-;)(redliuBgnirtS wen = gnirtSnIsrebmun redliuBgnirtS
-{ )srebmun : rebmun tni( rof
-;)rebmun(dneppa.gnirtSnIsrebmun
-;)rotarapes(dneppa.gnirtSnIsrebmun
-}
-;)(gnirtSot.gnirtSnIsrebmun nruter
-}
+edirrevO@    
+{ )(gnirtSot gnirtS cilbup    
+;)(redliuBgnirtS wen = gnirtSnIsrebmun redliuBgnirtS        
+{ )srebmun : rebmun tni( rof        
+;)rebmun(dneppa.gnirtSnIsrebmun            
+;)rotarapes(dneppa.gnirtSnIsrebmun            
+}        
+;)(gnirtSot.gnirtSnIsrebmun nruter        
+}    
 
 }

@@ -1,0 +1,1295 @@
++--IdeaProjects
++--Epam_Task
++--firsttest
+|      +--.idea
+|      |      \--.gitignore
+|      |      \--.name
+|      |      \--compiler.xml
+|      |      \--jarRepositories.xml
+|      |      \--misc.xml
+|      |      \--uiDesigner.xml
+|      |      \--workspace.xml
+|      \--pom.xml
+|      +--src
+|      |      +--main
+|      |      |      +--java
+|      |      |      +--resources
+|      |      +--test
+|      |      +--java
+|      |      +--brudingiton
+|      |      |      +--enums
+|      |      |      |      \--BashColor.java
+|      |      |      +--page
+|      |      |      |      \--ChekResultCreatingNewPage.java
+|      |      |      |      \--CreateBinHomePage.java
+|      |      |      +--resources
+|      |      |      |      \--PasteCod.java
+|      |      |      +--test
+|      |      |      \--WebDriverPasteCodBinTest.java
+|      |      +--hardcore
+|      |      |      +--enums
+|      |      |      |      \--TimeForWaits.java
+|      |      |      +--page
+|      |      |      |      \--CheckResultCalculator.java
+|      |      |      |      \--CreateHomeGooglePageCalculator.java
+|      |      |      |      \--EmailEstimatePage.java
+|      |      |      +--resources
+|      |      |      |      \--GooglePageResources.java
+|      |      |      +--test
+|      |      |      |      \--GoogleCloudTest.java
+|      |      |      +--utils
+|      |      |      |      \--JavascriptUtils.java
+|      |      |      |      \--LocatorUtils.java
+|      |      |      +--waits
+|      |      |      \--CustomWebElementWaits.java
+|      |      +--hurtmeplenty
+|      |      |      +--page
+|      |      |      |      \--ChekResultCreatingVM.java
+|      |      |      |      \--CreateGoogleHomePage.java
+|      |      |      +--resources
+|      |      |      |      \--PasteCodForGoogle.java
+|      |      |      +--test
+|      |      |      \--WebDriverGoogleTest.java
+|      |      +--icanwin
+|      |      |      +--page
+|      |      |      |      \--CheckResultPasteBinHomePage.java
+|      |      |      |      \--PasteBinHomePage.java
+|      |      |      +--test
+|      |      |      \--WebDriverPasteTest.java
+|      |      +--OneTask
+|      |      |      +--waits
+|      |      |      \--WebDriverPasteTest.java
+|      |      +--waits
+|      |      |      \--CustomConditions.java
+|      |      \--WebDriverPasteTest.java
+|      +--target
+|      +--generated-test-sources
+|      |      +--test-annotations
+|      +--test-classes
+|      +--brudingiton
+|      |      +--enums
+|      |      |      \--BashColor.class
+|      |      +--page
+|      |      |      \--ChekResultCreatingNewPage.class
+|      |      |      \--CreateBinHomePage.class
+|      |      +--resources
+|      |      |      \--PasteCod.class
+|      |      +--test
+|      |      \--WebDriverPasteCodBinTest.class
+|      +--hardcore
+|      |      +--enums
+|      |      |      \--TimeForWaits.class
+|      |      +--page
+|      |      |      \--CheckResultCalculator.class
+|      |      |      \--CreateHomeGooglePageCalculator.class
+|      |      |      \--EmailEstimatePage.class
+|      |      +--resources
+|      |      |      \--GooglePageResources.class
+|      |      +--test
+|      |      |      \--GoogleCloudTest.class
+|      |      +--utils
+|      |      |      \--JavascriptUtils.class
+|      |      |      \--LocatorUtils.class
+|      |      +--waits
+|      |      \--CustomWebElementWaits.class
+|      +--hurtmeplenty
+|      |      +--page
+|      |      |      \--ChekResultCreatingVM.class
+|      |      |      \--CreateGoogleHomePage.class
+|      |      +--resources
+|      |      |      \--PasteCodForGoogle.class
+|      |      +--test
+|      |      \--WebDriverGoogleTest.class
+|      +--icanwin
+|      |      +--page
+|      |      |      \--CheckResultPasteBinHomePage.class
+|      |      |      \--PasteBinHomePage.class
+|      |      +--test
+|      |      \--WebDriverPasteTest.class
+|      +--OneTask
+|      |      \--WebDriverPasteTest.class
+|      +--waits
+|      |      \--CustomConditions$1.class
+|      |      \--CustomConditions$2.class
+|      |      \--CustomConditions.class
+|      \--WebDriverPasteTest.class
++--for_git
+|      +--.git
+|      |      \--COMMIT_EDITMSG
+|      |      \--config
+|      |      \--description
+|      |      \--HEAD
+|      |      +--hooks
+|      |      |      \--applypatch-msg.sample
+|      |      |      \--commit-msg.sample
+|      |      |      \--fsmonitor-watchman.sample
+|      |      |      \--post-update.sample
+|      |      |      \--pre-applypatch.sample
+|      |      |      \--pre-commit.sample
+|      |      |      \--pre-merge-commit.sample
+|      |      |      \--pre-push.sample
+|      |      |      \--pre-rebase.sample
+|      |      |      \--pre-receive.sample
+|      |      |      \--prepare-commit-msg.sample
+|      |      |      \--push-to-checkout.sample
+|      |      |      \--update.sample
+|      |      \--index
+|      |      +--info
+|      |      |      \--exclude
+|      |      +--logs
+|      |      |      \--HEAD
+|      |      |      +--refs
+|      |      |      +--heads
+|      |      |      |      \--master
+|      |      |      +--remotes
+|      |      |      +--origin
+|      |      |      \--HEAD
+|      |      |      \--master
+|      |      +--objects
+|      |      |      +--00
+|      |      |      |      \--6cb6dd756b1965d32b5002563da86f4cfa4dbf
+|      |      |      +--02
+|      |      |      |      \--eb15bd5ee0fdbd112e70323fe3fbd1797076c8
+|      |      |      |      \--ede87ae3d12737990ebe7920aa73cf23cf73ab
+|      |      |      +--0c
+|      |      |      |      \--7237c4fecf29e8e78a04436c8bd5f25a9ca9c4
+|      |      |      +--0f
+|      |      |      |      \--1e22e735f9a4b0884189ca90530798cc90c9d1
+|      |      |      |      \--34b03e5f6c2602b2af41cb1148d3691ef2f7ba
+|      |      |      |      \--bbfe96609231d07bcf4504e6ba9bf15fa52c18
+|      |      |      +--12
+|      |      |      |      \--f68e57cccee2f0fe1446e34dc170fbf5022f93
+|      |      |      +--13
+|      |      |      |      \--2404bc29da2535f7f7dde84180d85abc60d5a4
+|      |      |      +--16
+|      |      |      |      \--c15f2daaf92d28d3ba5dde84ed7b3a353aad5f
+|      |      |      +--18
+|      |      |      |      \--73fcedca7e81aacd8e71adf8ac9e613c2d3af2
+|      |      |      +--1d
+|      |      |      |      \--49977a05d5857f57718a58344f429e5b0f07f6
+|      |      |      |      \--af6aa95f5bada3c9ad725300b7b3aeba4b31b7
+|      |      |      +--1e
+|      |      |      |      \--210e04df5ba9200ad9e5d866fe2e295dbbb1c8
+|      |      |      +--21
+|      |      |      |      \--b7f01aa166d88c2541dc514c2c53e6aeffb3cb
+|      |      |      +--22
+|      |      |      |      \--2caefe607dcbbae142a3ed867ee3d0b7f7f2d7
+|      |      |      +--23
+|      |      |      |      \--d5f0123dc98df1ec350a11b80eb53537b85ca3
+|      |      |      +--2b
+|      |      |      |      \--1257f803cef6a3fd6f3d5dae70d45828cfd3d5
+|      |      |      +--35
+|      |      |      |      \--eb1ddfbbc029bcab630581847471d7f238ec53
+|      |      |      +--3b
+|      |      |      |      \--6def6b406baf3959cfa977c7802fcf02ba9aab
+|      |      |      |      \--99d6cefbba4477c2bdd6f6f79cc285acc6c53f
+|      |      |      +--3d
+|      |      |      |      \--13cc7f28f91c53f0363b6cfedf8ae2b7cdd05f
+|      |      |      |      \--db21fd07baa5c5cfc8e4ea11407bb75721b66f
+|      |      |      +--40
+|      |      |      |      \--bcad61a111053283173286cec3e7ff83b8fb63
+|      |      |      +--41
+|      |      |      |      \--75769044d9edc558fc2022fc98d20bffea6559
+|      |      |      |      \--8eaa7a861f247aa66255b10781f1e9cb780c4e
+|      |      |      +--43
+|      |      |      |      \--402a48b807bc54d92008a541dfe6370cef597f
+|      |      |      +--44
+|      |      |      |      \--c86bb6113e5f9074dc7dea7fa0f5344bc5a7ae
+|      |      |      +--46
+|      |      |      |      \--993c5c82046d3b0c8e6cfa39b96288f9d23730
+|      |      |      +--47
+|      |      |      |      \--e13679c050937bdf2623c66a86a78468dfaca5
+|      |      |      +--4b
+|      |      |      |      \--e7160b51551c085999b6fca0c7ba5cc354ee0d
+|      |      |      +--50
+|      |      |      |      \--972656f31bf9d7ad040328ac75335948779d5b
+|      |      |      +--52
+|      |      |      |      \--b841d9f73324b2cb8d7ce15de7277f5e47ec2a
+|      |      |      +--54
+|      |      |      |      \--410143f8a9b5818acd3316115f3d1562135e9d
+|      |      |      +--55
+|      |      |      |      \--62d3239ee0f7ab8ee0884d27425f6360b26c2a
+|      |      |      |      \--ed190d562334c106c546675de2dbecdd5ff81f
+|      |      |      +--58
+|      |      |      |      \--ffca45181b4e645ada4b979e808be7a01c6b31
+|      |      |      +--5b
+|      |      |      |      \--37b7d7573d8fa5ce7cf68e8e8135c53c2db853
+|      |      |      +--67
+|      |      |      |      \--6e40c96dd6807f066b07a811ba5dd28d535d34
+|      |      |      +--69
+|      |      |      |      \--102f00f22b50d41f7de43712967d41398885c4
+|      |      |      +--6b
+|      |      |      |      \--aeb976f756983c31766a41f4460765d2674926
+|      |      |      +--6c
+|      |      |      |      \--1ae7b9e41f197e0271019662f0b9c1950640e3
+|      |      |      +--6f
+|      |      |      |      \--03f9e1f8dba7a9706c490e4fbd44dfff202ed6
+|      |      |      +--71
+|      |      |      |      \--04cbd3615baa10c38b620d18d9e386a6e8d00b
+|      |      |      |      \--2ab9d985c20018a0c97b93d2148ac1ffe588a5
+|      |      |      +--73
+|      |      |      |      \--f69e0958611ac6e00bde95641f6699030ad235
+|      |      |      +--74
+|      |      |      |      \--7e1c8ba2aea91f52ccee3ab015e1b826d360d5
+|      |      |      +--75
+|      |      |      |      \--c61e2a48d481af19d4709d44b2d42e2e2f39aa
+|      |      |      +--76
+|      |      |      |      \--7111971b111de2f6ed6de38ad6a25aa5cc44ce
+|      |      |      +--78
+|      |      |      |      \--9f0f1aae8091871143f531588e78ccc341a699
+|      |      |      +--7a
+|      |      |      |      \--9488ed0bdbc482fe33fb78a2ad38bbf858dc62
+|      |      |      +--82
+|      |      |      |      \--cdcd6e868e9715a01c28135dadde6b5f09009a
+|      |      |      +--83
+|      |      |      |      \--9162a400d9cc045aaae186cbd69cf1a380cb32
+|      |      |      +--86
+|      |      |      |      \--f0b13f33250bcf42c9d5e814f2258853612989
+|      |      |      +--88
+|      |      |      |      \--ba08df908d48776dae1cfb4a76578b11127e9a
+|      |      |      +--8c
+|      |      |      |      \--9e280ed526a362586cea17b7c40e634be5e22a
+|      |      |      +--91
+|      |      |      |      \--258fa7f2fcd3486fbe0bd93a6214999f991607
+|      |      |      +--93
+|      |      |      |      \--c0f32a85373e31295523a1ec7aa5150c358e52
+|      |      |      +--96
+|      |      |      |      \--53cc97400e93e9d33dea2fcc8179209d64a96d
+|      |      |      |      \--89560b93e0b0e9a8265c27bda7fe2253770d4d
+|      |      |      |      \--a8f358ffdefdaf8e2123f013db95f7baac0eee
+|      |      |      +--97
+|      |      |      |      \--24eb4e350f3904449b2a6e5f7e97204ecd1b23
+|      |      |      +--98
+|      |      |      |      \--666e59f1bbfeeb4dd50864d67fdaad83d9472b
+|      |      |      +--99
+|      |      |      |      \--60680c4ab5f9be71a9dd19711afeabe4955a0f
+|      |      |      +--a1
+|      |      |      |      \--9cacb0581bd178a8accc7f66874c803e980b44
+|      |      |      +--a7
+|      |      |      |      \--d86d1648bde3436094cc20168cbd0591a96a2e
+|      |      |      +--bb
+|      |      |      |      \--d7d969001814a5da0534e138e4bea2d3df4b3b
+|      |      |      +--bd
+|      |      |      |      \--2072a20db48c1b4977e6a6060e325e1e2827f3
+|      |      |      |      \--bfe7e93931e89ef6da4580b021338d0c720e57
+|      |      |      +--c3
+|      |      |      |      \--42795d7b537a8c7d36e31f6e0fef5ed42a69bb
+|      |      |      +--c5
+|      |      |      |      \--037e157f790603d7cdadb63d9241bc09ec8e8e
+|      |      |      |      \--301dd8e92971087258eb74038a44158166ff8f
+|      |      |      +--c6
+|      |      |      |      \--c9ae328f73017efec2bcb1942b7b2f8e813218
+|      |      |      +--c8
+|      |      |      |      \--de954b9012c383fe3d045a5f508af45c943012
+|      |      |      +--d0
+|      |      |      |      \--b1d1588ed1bca7e4db4fb9ad1f6534f4dbcba3
+|      |      |      +--d1
+|      |      |      |      \--4ca7072fa97663abf8eb60fdaabe36355f6224
+|      |      |      +--d4
+|      |      |      |      \--d3f4904649a326b1f83425f745cb1f39bfac9c
+|      |      |      +--d9
+|      |      |      |      \--dcf96005713c12d7d8b29730746e4655918156
+|      |      |      +--da
+|      |      |      |      \--b9f7a771fbcbd45a1bbdbc99e84454b8998e9a
+|      |      |      |      \--fe850349b45e579a01c2ea925b925076500161
+|      |      |      +--dc
+|      |      |      |      \--02ee3253b66a6ed3eb11a061b03cc4c45542a8
+|      |      |      |      \--b32ad2c95ca31b46961c97f00828a1af336af0
+|      |      |      +--dd
+|      |      |      |      \--d029e126f571e0e3953805b5b37ffd799b04be
+|      |      |      +--de
+|      |      |      |      \--38566a77d50355c8a66c74d1baf7d8c8a15761
+|      |      |      +--df
+|      |      |      |      \--4d5571731fa2f69358771ad132ed2c29d023dd
+|      |      |      +--e4
+|      |      |      |      \--16c5994adbe3a48b7a962c9c3224f2955a1041
+|      |      |      +--e9
+|      |      |      |      \--6534fb27b68192f27f985d3879e173ec77adb8
+|      |      |      +--ea
+|      |      |      |      \--87af42317b7fd94ec1d62d3bcc6ff1d3ed2e5e
+|      |      |      +--ed
+|      |      |      |      \--d33418d64a1b7314ba7dfaa92598b43949472d
+|      |      |      +--f4
+|      |      |      |      \--d21942fbfc654c144e86c6849dbcd0cbbf26fd
+|      |      |      +--f6
+|      |      |      |      \--a08987a0b5b44b65c1b46121be3a80ebb65798
+|      |      |      +--fa
+|      |      |      |      \--4ea2a28ed82af0a24bcdb73fc9576d58e29c5d
+|      |      |      |      \--c4d21c9768a67e34d434a38aacb291f26ec9c2
+|      |      |      +--fb
+|      |      |      |      \--170c6044c9c3eb0f1c20c109c669f25bf5bc6b
+|      |      |      |      \--6b37ab4336279c0131d534d715f585546096a6
+|      |      |      |      \--ceefa66129e5f7685bf5100ded7a03cda78229
+|      |      |      +--info
+|      |      |      +--pack
+|      |      |      \--pack-4e2e39bf993d5eea4c0ca87fd7c9338968932158.idx
+|      |      |      \--pack-4e2e39bf993d5eea4c0ca87fd7c9338968932158.pack
+|      |      \--packed-refs
+|      |      +--refs
+|      |      +--heads
+|      |      |      \--master
+|      |      +--remotes
+|      |      |      +--origin
+|      |      |      \--HEAD
+|      |      |      \--master
+|      |      +--tags
+|      +--.idea
+|      |      \--.gitignore
+|      |      \--.name
+|      |      \--compiler.xml
+|      |      \--jarRepositories.xml
+|      |      \--misc.xml
+|      |      \--uiDesigner.xml
+|      |      \--vcs.xml
+|      |      \--workspace.xml
+|      \--pom.xml
+|      \--README.md
+|      +--src
+|      |      +--main
+|      |      |      +--java
+|      |      |      +--resources
+|      |      +--test
+|      |      +--java
+|      |      +--brudingiton
+|      |      |      +--enums
+|      |      |      |      \--BashColor.java
+|      |      |      +--page
+|      |      |      |      \--ChekResultCreatingNewPage.java
+|      |      |      |      \--CreateBinHomePage.java
+|      |      |      +--resources
+|      |      |      |      \--PasteCod.java
+|      |      |      +--test
+|      |      |      \--WebDriverPasteCodBinTest.java
+|      |      +--hardcore
+|      |      |      +--page
+|      |      |      |      \--CreateHomeGooglePageCalculator.java
+|      |      |      |      \--EmailEstimatePage.java
+|      |      |      |      \--HomePageGoogle.java
+|      |      |      |      \--SearchingResultPage.java
+|      |      |      +--resources
+|      |      |      |      \--GooglePageResources.java
+|      |      |      +--test
+|      |      |      \--GoogleCloudTest.java
+|      |      +--hurtmeplenty
+|      |      |      +--page
+|      |      |      |      \--ChekResultCreatingVM.java
+|      |      |      |      \--CreateGoogleHomePage.java
+|      |      |      |      \--HomePageGoogle.java
+|      |      |      |      \--SearchingResultPage.java
+|      |      |      +--resources
+|      |      |      |      \--PasteCodForGoogle.java
+|      |      |      +--test
+|      |      |      \--WebDriverGoogleTest.java
+|      |      +--icanwin
+|      |      |      +--page
+|      |      |      |      \--CheckResultPasteBinHomePage.java
+|      |      |      |      \--PasteBinHomePage.java
+|      |      |      +--test
+|      |      |      \--WebDriverPasteTest.java
+|      |      +--waits
+|      |      \--CustomConditions.java
+|      +--target
+|      +--generated-test-sources
+|      |      +--test-annotations
+|      +--test-classes
+|      +--brudingiton
+|      |      +--enums
+|      |      |      \--BashColor.class
+|      |      +--page
+|      |      |      \--ChekResultCreatingNewPage.class
+|      |      |      \--CreateBinHomePage.class
+|      |      +--resources
+|      |      |      \--PasteCod.class
+|      |      +--test
+|      |      \--WebDriverPasteCodBinTest.class
+|      +--hardcore
+|      |      +--page
+|      |      |      \--CreateHomeGooglePageCalculator.class
+|      |      |      \--EmailEstimatePage.class
+|      |      |      \--HomePageGoogle.class
+|      |      |      \--SearchingResultPage.class
+|      |      +--resources
+|      |      |      \--GooglePageResources.class
+|      |      +--test
+|      |      \--GoogleCloudTest.class
+|      +--hurtmeplenty
+|      |      +--page
+|      |      |      \--CreateGoogleHomePage.class
+|      |      |      \--HomePageGoogle.class
+|      |      |      \--SearchingResultPage.class
+|      |      +--resources
+|      |      |      \--PasteCodForGoogle.class
+|      |      +--test
+|      |      \--WebDriverGoogleTest.class
+|      +--icanwin
+|      |      +--page
+|      |      |      \--CheckResultPasteBinHomePage.class
+|      |      |      \--PasteBinHomePage.class
+|      |      +--test
+|      |      \--WebDriverPasteTest.class
+|      +--waits
+|      \--CustomConditions$1.class
+|      \--CustomConditions$2.class
+|      \--CustomConditions.class
++--framework
+|      +--.git
+|      |      \--COMMIT_EDITMSG
+|      |      \--config
+|      |      \--description
+|      |      \--FETCH_HEAD
+|      |      \--fork-settings
+|      |      \--HEAD
+|      |      +--hooks
+|      |      |      \--applypatch-msg.sample
+|      |      |      \--commit-msg.sample
+|      |      |      \--fsmonitor-watchman.sample
+|      |      |      \--post-update.sample
+|      |      |      \--pre-applypatch.sample
+|      |      |      \--pre-commit.sample
+|      |      |      \--pre-merge-commit.sample
+|      |      |      \--pre-push.sample
+|      |      |      \--pre-rebase.sample
+|      |      |      \--pre-receive.sample
+|      |      |      \--prepare-commit-msg.sample
+|      |      |      \--push-to-checkout.sample
+|      |      |      \--update.sample
+|      |      \--index
+|      |      +--info
+|      |      |      \--exclude
+|      |      +--logs
+|      |      |      \--HEAD
+|      |      |      +--refs
+|      |      |      +--heads
+|      |      |      |      \--master
+|      |      |      +--remotes
+|      |      |      +--origin
+|      |      |      \--master
+|      |      +--objects
+|      |      |      +--01
+|      |      |      |      \--50581bd99311997f6bfa4f8bf94e009508061f
+|      |      |      +--07
+|      |      |      |      \--8ec9bc7465b1f7551bc6bce37e4caa8f0dbc2d
+|      |      |      +--0b
+|      |      |      |      \--544e231f1ac6fc2b8fbfb0e34987a29096a8d8
+|      |      |      |      \--d0c51cd01d833c86e3ee30069eb02807c58bef
+|      |      |      +--0d
+|      |      |      |      \--dd0bf88fc8ccc0ff0ac22ff612a1b6abf01649
+|      |      |      +--10
+|      |      |      |      \--1148dfc8417074005e63c1aa53925123eabe1f
+|      |      |      +--12
+|      |      |      |      \--1b41d813e9cc1a776f3a2938c1c76220638ffb
+|      |      |      +--13
+|      |      |      |      \--2404bc29da2535f7f7dde84180d85abc60d5a4
+|      |      |      |      \--74c5dbc3ddec068b42f9e0642d33986dee5f4e
+|      |      |      |      \--a9a2d9ef52ec6dcd539cc40e167b7c8fe38ee1
+|      |      |      +--16
+|      |      |      |      \--f69cfa09261b0a736fd1d60e57706bb532a67d
+|      |      |      +--18
+|      |      |      |      \--7afaab8b13a7f8ef7810d7d929c504aeba7cf9
+|      |      |      +--1d
+|      |      |      |      \--3939e32038b71ff74b00cf7f4ce24730fe63c2
+|      |      |      |      \--73c6bf2acae8a646b80ab4f880a751acc91531
+|      |      |      +--1f
+|      |      |      |      \--8cdafe6fa6ba075172ca319fb357de12c13253
+|      |      |      |      \--99ded0c977b6289b7080bdb93742726c9b8d43
+|      |      |      +--22
+|      |      |      |      \--23ada06390e51835dbee779b1bccf5fb18b16e
+|      |      |      +--23
+|      |      |      |      \--9ce1ca5b06a3f7bec694173272ceb6253de5f9
+|      |      |      +--25
+|      |      |      |      \--e1f5a94461018c8c95d97dbe7141ac002d00e9
+|      |      |      +--2a
+|      |      |      |      \--4bd7f6b52beaf9bf809a2deaca3a5b935a1d82
+|      |      |      |      \--f0df12ebbce201fbe300953191dfbc7f04a108
+|      |      |      +--31
+|      |      |      |      \--e1e668258f90a3d985aaab0a213a92a5d453da
+|      |      |      +--34
+|      |      |      |      \--e0fc5e4f25e68e41380314f5f785a5f3f77af1
+|      |      |      +--38
+|      |      |      |      \--228cc65c81eed0adc69aae18fa80013e9bb277
+|      |      |      +--3a
+|      |      |      |      \--c957d11a51506373b2aa3c7768a1fb8b7645e8
+|      |      |      +--43
+|      |      |      |      \--bda799bafe4df7d2d55289af05df45e61c3181
+|      |      |      +--4b
+|      |      |      |      \--825dc642cb6eb9a060e54bf8d69288fbee4904
+|      |      |      +--4d
+|      |      |      |      \--0512fe4ea4eb027c2c79abb411c71e003b44d3
+|      |      |      +--4e
+|      |      |      |      \--63349353dd5324c126f4c312771d9a352496b7
+|      |      |      |      \--c7386995be2ee23222fde15f83e72b20453c71
+|      |      |      +--50
+|      |      |      |      \--798b264cf44a6f1d4762d75348c1cd72558774
+|      |      |      +--55
+|      |      |      |      \--bf9dd576ad26601a62980f1a7338134bf52607
+|      |      |      +--59
+|      |      |      |      \--1831d02217f010c0e257da22f86b616949ac9c
+|      |      |      +--5b
+|      |      |      |      \--ff25f66b4a921dceff432b7eaebc3537172a0d
+|      |      |      +--5e
+|      |      |      |      \--1bcc3cbac62a84235f53c163f193efe86fa7e6
+|      |      |      +--61
+|      |      |      |      \--f29f7706047ec0f00e8aea85b3a48f1e27f19b
+|      |      |      +--63
+|      |      |      |      \--ed43b38abdc45cfa34468ef87e6dee4939bd45
+|      |      |      +--65
+|      |      |      |      \--edda2918571446c8677ef643011f1ea930ab78
+|      |      |      +--67
+|      |      |      |      \--d6770713cf5be97152e1dc1cfd48a2cfbb1ba7
+|      |      |      +--71
+|      |      |      |      \--2ab9d985c20018a0c97b93d2148ac1ffe588a5
+|      |      |      +--73
+|      |      |      |      \--f69e0958611ac6e00bde95641f6699030ad235
+|      |      |      +--75
+|      |      |      |      \--d9351e10222232ef509f8ace8e4d022b4fcc7a
+|      |      |      +--80
+|      |      |      |      \--7f0aca199ec7d7b45f7e04924d7a90d70a3738
+|      |      |      +--84
+|      |      |      |      \--68e062d20132db67fb97583adec7eab27f7a75
+|      |      |      +--85
+|      |      |      |      \--b24ccee77c91069b7d81db190f5d11846a5930
+|      |      |      +--86
+|      |      |      |      \--2f480cba4654b235e27d074cbe009eeea17ea3
+|      |      |      +--87
+|      |      |      |      \--8dc941f12f0ce2be6415805a6fff02a7f768c9
+|      |      |      +--8f
+|      |      |      |      \--9b37993353557ce9001961ce32aed919c1f26c
+|      |      |      +--93
+|      |      |      |      \--cb8593d7318914f03404b258ddefcfae9d4939
+|      |      |      +--94
+|      |      |      |      \--a25f7f4cb416c083d265558da75d457237d671
+|      |      |      |      \--fce983b5541e65712775e72bae095112078682
+|      |      |      +--9c
+|      |      |      |      \--2facfcddb7b9c840834126edaffa332845c10c
+|      |      |      +--9d
+|      |      |      |      \--b8f7cddb8df97f19bee7d869092a4b67b75b31
+|      |      |      +--a2
+|      |      |      |      \--bf1a11e62be7e016b8729770598a4b4ab3e7fb
+|      |      |      +--a7
+|      |      |      |      \--49024a1db252b8b90989eeb15fb5c5348f4ca5
+|      |      |      |      \--9e64b85f04a6667548412a4a4dfc96a7848acc
+|      |      |      +--aa
+|      |      |      |      \--00ffab7828f4818589659c804ec2cfd99baed3
+|      |      |      +--af
+|      |      |      |      \--c144f5095a3fa7220f628188ab8331a5244376
+|      |      |      |      \--de929cab106dd1447630e77003a896fd161257
+|      |      |      +--b2
+|      |      |      |      \--12de8f19e87cdc38f4d4a4c9b1adbca5b9686e
+|      |      |      +--b3
+|      |      |      |      \--fad62db0f71dfcfab170f27b1768462fac1a31
+|      |      |      +--b4
+|      |      |      |      \--fb9407541e19461632b1f05e3c9b96327af858
+|      |      |      +--b5
+|      |      |      |      \--d375f0e1a0cb03a1987d2ccce67ee5e4ea477f
+|      |      |      +--b6
+|      |      |      |      \--f4ea59829435f8300f55b53bb7aa38da78b93c
+|      |      |      +--b8
+|      |      |      |      \--bae8b2a4926f8338425a3ef6dadcc6928a6457
+|      |      |      +--bc
+|      |      |      |      \--8f7fe4020d58eaac810305e003fa90ba92df92
+|      |      |      +--bd
+|      |      |      |      \--3c8287085d0906168ab7baa734e517b9be5d19
+|      |      |      |      \--ed8284e7e9adff710e3c5667c44675502ae40f
+|      |      |      +--bf
+|      |      |      |      \--9abf797b7e4f25f1ff2ae1f83d9d29a3298da6
+|      |      |      +--c4
+|      |      |      |      \--30ffa5ff47cff9b8304cc479b873c97aaa459c
+|      |      |      |      \--3685276e572f5d7d32a6276080b07660a58601
+|      |      |      +--c8
+|      |      |      |      \--c360af4a158f6cd9f00bb683513be1182354e7
+|      |      |      +--cb
+|      |      |      |      \--1f5af1580e2903c8fc2b04142ca5d164228544
+|      |      |      +--d1
+|      |      |      |      \--212a1209a70d53e750fee60403f427f1917709
+|      |      |      +--d7
+|      |      |      |      \--1fab471b77fbd5a98d873919ae83ffaa21dab1
+|      |      |      +--db
+|      |      |      |      \--3cd448ca6034a4624334beed705a57db49e7f6
+|      |      |      +--dc
+|      |      |      |      \--af9a6b8bbb72efccfeca1cfd1faf34f82ba19c
+|      |      |      +--dd
+|      |      |      |      \--fb065e281826d361f6d344976092e9e6bc1cf9
+|      |      |      +--e1
+|      |      |      |      \--174206adc25bde7acd709c0ca1c5fd490e6ce0
+|      |      |      +--e6
+|      |      |      |      \--9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|      |      |      +--e9
+|      |      |      |      \--6534fb27b68192f27f985d3879e173ec77adb8
+|      |      |      +--ea
+|      |      |      |      \--c32c893ac5453527336ddd388fe46b573b5767
+|      |      |      +--f4
+|      |      |      |      \--64d5a10e60dc6801407984cebb7417b59b9ec9
+|      |      |      +--f6
+|      |      |      |      \--3774f0f5660647a4d854c5ab071c9bc160a397
+|      |      |      |      \--cbdc0134f5ec8eb764cdabd6a802635546a28c
+|      |      |      +--f7
+|      |      |      |      \--353b05a600990edda121da9a78cfd1ef8ec9d0
+|      |      |      +--f8
+|      |      |      |      \--77edd3edb0da5f99caf867dc673b02a95b068e
+|      |      |      +--f9
+|      |      |      |      \--c4263ae98a1397d6a720d14e484c8009b35237
+|      |      |      +--fa
+|      |      |      |      \--b9a21e1fa8d59fa16b73beabcca6944c1b091a
+|      |      |      +--info
+|      |      |      +--pack
+|      |      |      \--pack-391fa7d4db7994b571fcbbbb4e42cf9516800817.idx
+|      |      |      \--pack-391fa7d4db7994b571fcbbbb4e42cf9516800817.pack
+|      |      |      \--pack-c481de70de34bb66e88c6fbbea8fc4bea3d8eb64.idx
+|      |      |      \--pack-c481de70de34bb66e88c6fbbea8fc4bea3d8eb64.pack
+|      |      +--refs
+|      |      +--heads
+|      |      |      \--master
+|      |      +--remotes
+|      |      |      +--origin
+|      |      |      \--master
+|      |      +--tags
+|      +--.idea
+|      |      \--.gitignore
+|      |      \--compiler.xml
+|      |      \--encodings.xml
+|      |      \--jarRepositories.xml
+|      |      \--misc.xml
+|      |      \--uiDesigner.xml
+|      |      \--vcs.xml
+|      |      \--workspace.xml
+|      +--framework
+|      |      +--.git
+|      |      |      \--COMMIT_EDITMSG
+|      |      |      \--config
+|      |      |      \--description
+|      |      |      \--HEAD
+|      |      |      +--hooks
+|      |      |      |      \--applypatch-msg.sample
+|      |      |      |      \--commit-msg.sample
+|      |      |      |      \--fsmonitor-watchman.sample
+|      |      |      |      \--post-update.sample
+|      |      |      |      \--pre-applypatch.sample
+|      |      |      |      \--pre-commit.sample
+|      |      |      |      \--pre-merge-commit.sample
+|      |      |      |      \--pre-push.sample
+|      |      |      |      \--pre-rebase.sample
+|      |      |      |      \--pre-receive.sample
+|      |      |      |      \--prepare-commit-msg.sample
+|      |      |      |      \--push-to-checkout.sample
+|      |      |      |      \--update.sample
+|      |      |      \--index
+|      |      |      +--info
+|      |      |      |      \--exclude
+|      |      |      +--logs
+|      |      |      |      \--HEAD
+|      |      |      |      +--refs
+|      |      |      |      +--heads
+|      |      |      |      |      \--master
+|      |      |      |      +--remotes
+|      |      |      |      +--origin
+|      |      |      |      \--HEAD
+|      |      |      |      \--master
+|      |      |      +--objects
+|      |      |      |      +--00
+|      |      |      |      |      \--228e238f0a5a845caa7b62ce2b9bb80ec1be84
+|      |      |      |      +--01
+|      |      |      |      |      \--50581bd99311997f6bfa4f8bf94e009508061f
+|      |      |      |      +--07
+|      |      |      |      |      \--8ec9bc7465b1f7551bc6bce37e4caa8f0dbc2d
+|      |      |      |      +--0b
+|      |      |      |      |      \--544e231f1ac6fc2b8fbfb0e34987a29096a8d8
+|      |      |      |      |      \--d0c51cd01d833c86e3ee30069eb02807c58bef
+|      |      |      |      +--0d
+|      |      |      |      |      \--dd0bf88fc8ccc0ff0ac22ff612a1b6abf01649
+|      |      |      |      +--10
+|      |      |      |      |      \--1148dfc8417074005e63c1aa53925123eabe1f
+|      |      |      |      +--12
+|      |      |      |      |      \--1b41d813e9cc1a776f3a2938c1c76220638ffb
+|      |      |      |      +--13
+|      |      |      |      |      \--2404bc29da2535f7f7dde84180d85abc60d5a4
+|      |      |      |      |      \--74c5dbc3ddec068b42f9e0642d33986dee5f4e
+|      |      |      |      |      \--a9a2d9ef52ec6dcd539cc40e167b7c8fe38ee1
+|      |      |      |      +--14
+|      |      |      |      |      \--51cd2c0d845548fface2002e2e3259fc030c5a
+|      |      |      |      +--16
+|      |      |      |      |      \--f69cfa09261b0a736fd1d60e57706bb532a67d
+|      |      |      |      +--18
+|      |      |      |      |      \--7afaab8b13a7f8ef7810d7d929c504aeba7cf9
+|      |      |      |      +--1d
+|      |      |      |      |      \--3939e32038b71ff74b00cf7f4ce24730fe63c2
+|      |      |      |      |      \--73c6bf2acae8a646b80ab4f880a751acc91531
+|      |      |      |      +--1f
+|      |      |      |      |      \--8cdafe6fa6ba075172ca319fb357de12c13253
+|      |      |      |      +--22
+|      |      |      |      |      \--23ada06390e51835dbee779b1bccf5fb18b16e
+|      |      |      |      +--25
+|      |      |      |      |      \--e1f5a94461018c8c95d97dbe7141ac002d00e9
+|      |      |      |      +--29
+|      |      |      |      |      \--01205641ff78948dce7a3c54ac8096a0837fb0
+|      |      |      |      +--2a
+|      |      |      |      |      \--4bd7f6b52beaf9bf809a2deaca3a5b935a1d82
+|      |      |      |      |      \--f0df12ebbce201fbe300953191dfbc7f04a108
+|      |      |      |      +--31
+|      |      |      |      |      \--e1e668258f90a3d985aaab0a213a92a5d453da
+|      |      |      |      +--34
+|      |      |      |      |      \--e0fc5e4f25e68e41380314f5f785a5f3f77af1
+|      |      |      |      +--38
+|      |      |      |      |      \--228cc65c81eed0adc69aae18fa80013e9bb277
+|      |      |      |      +--3a
+|      |      |      |      |      \--c957d11a51506373b2aa3c7768a1fb8b7645e8
+|      |      |      |      +--3f
+|      |      |      |      |      \--86566e8bdbd6be6e09a85484a29ecb70f0c419
+|      |      |      |      +--43
+|      |      |      |      |      \--bda799bafe4df7d2d55289af05df45e61c3181
+|      |      |      |      +--46
+|      |      |      |      |      \--56c13d956e051845a23e31791f0dbe7409936f
+|      |      |      |      +--4d
+|      |      |      |      |      \--0512fe4ea4eb027c2c79abb411c71e003b44d3
+|      |      |      |      +--4e
+|      |      |      |      |      \--63349353dd5324c126f4c312771d9a352496b7
+|      |      |      |      |      \--c7386995be2ee23222fde15f83e72b20453c71
+|      |      |      |      +--50
+|      |      |      |      |      \--798b264cf44a6f1d4762d75348c1cd72558774
+|      |      |      |      +--55
+|      |      |      |      |      \--bf9dd576ad26601a62980f1a7338134bf52607
+|      |      |      |      +--56
+|      |      |      |      |      \--49a4ba862d24d5856bc4602f848885daba6506
+|      |      |      |      +--59
+|      |      |      |      |      \--1831d02217f010c0e257da22f86b616949ac9c
+|      |      |      |      +--5b
+|      |      |      |      |      \--ff25f66b4a921dceff432b7eaebc3537172a0d
+|      |      |      |      +--5e
+|      |      |      |      |      \--1bcc3cbac62a84235f53c163f193efe86fa7e6
+|      |      |      |      +--61
+|      |      |      |      |      \--f29f7706047ec0f00e8aea85b3a48f1e27f19b
+|      |      |      |      +--63
+|      |      |      |      |      \--ed43b38abdc45cfa34468ef87e6dee4939bd45
+|      |      |      |      +--67
+|      |      |      |      |      \--d6770713cf5be97152e1dc1cfd48a2cfbb1ba7
+|      |      |      |      +--71
+|      |      |      |      |      \--2ab9d985c20018a0c97b93d2148ac1ffe588a5
+|      |      |      |      +--73
+|      |      |      |      |      \--f69e0958611ac6e00bde95641f6699030ad235
+|      |      |      |      +--75
+|      |      |      |      |      \--d9351e10222232ef509f8ace8e4d022b4fcc7a
+|      |      |      |      +--7c
+|      |      |      |      |      \--83fa076dd89b9016d889a5dcb29803d0619a93
+|      |      |      |      +--80
+|      |      |      |      |      \--7f0aca199ec7d7b45f7e04924d7a90d70a3738
+|      |      |      |      +--84
+|      |      |      |      |      \--68e062d20132db67fb97583adec7eab27f7a75
+|      |      |      |      |      \--76bb69c6fb1508f98a0eb5d3ad7713748a18b1
+|      |      |      |      +--85
+|      |      |      |      |      \--5574dcb79451e135573b5b9e9dd1f6b93862e4
+|      |      |      |      |      \--b24ccee77c91069b7d81db190f5d11846a5930
+|      |      |      |      +--86
+|      |      |      |      |      \--2f480cba4654b235e27d074cbe009eeea17ea3
+|      |      |      |      +--87
+|      |      |      |      |      \--8dc941f12f0ce2be6415805a6fff02a7f768c9
+|      |      |      |      +--8d
+|      |      |      |      |      \--ce16a4c766e70a3657e4922f98c7bf68dd0f3c
+|      |      |      |      +--8f
+|      |      |      |      |      \--9b37993353557ce9001961ce32aed919c1f26c
+|      |      |      |      +--93
+|      |      |      |      |      \--cb8593d7318914f03404b258ddefcfae9d4939
+|      |      |      |      +--94
+|      |      |      |      |      \--a25f7f4cb416c083d265558da75d457237d671
+|      |      |      |      |      \--fce983b5541e65712775e72bae095112078682
+|      |      |      |      +--9b
+|      |      |      |      |      \--03f8784bb638389b90b0be2f4c4d4ad9177eaa
+|      |      |      |      +--9c
+|      |      |      |      |      \--2facfcddb7b9c840834126edaffa332845c10c
+|      |      |      |      +--9d
+|      |      |      |      |      \--b8f7cddb8df97f19bee7d869092a4b67b75b31
+|      |      |      |      +--9e
+|      |      |      |      |      \--6fe4369d03d956a9b955f4c1ed588c988e7c80
+|      |      |      |      +--a2
+|      |      |      |      |      \--bf1a11e62be7e016b8729770598a4b4ab3e7fb
+|      |      |      |      +--a6
+|      |      |      |      |      \--6d62c4332a3d0f71ba86e501d5b4c5d4fa72d7
+|      |      |      |      +--a7
+|      |      |      |      |      \--49024a1db252b8b90989eeb15fb5c5348f4ca5
+|      |      |      |      |      \--9e64b85f04a6667548412a4a4dfc96a7848acc
+|      |      |      |      +--aa
+|      |      |      |      |      \--00ffab7828f4818589659c804ec2cfd99baed3
+|      |      |      |      +--af
+|      |      |      |      |      \--c144f5095a3fa7220f628188ab8331a5244376
+|      |      |      |      |      \--de929cab106dd1447630e77003a896fd161257
+|      |      |      |      +--b1
+|      |      |      |      |      \--1fc49951a55d5b1500ce2d6100284d25aab77a
+|      |      |      |      +--b2
+|      |      |      |      |      \--12de8f19e87cdc38f4d4a4c9b1adbca5b9686e
+|      |      |      |      +--b3
+|      |      |      |      |      \--fad62db0f71dfcfab170f27b1768462fac1a31
+|      |      |      |      +--b4
+|      |      |      |      |      \--fb9407541e19461632b1f05e3c9b96327af858
+|      |      |      |      +--b5
+|      |      |      |      |      \--d375f0e1a0cb03a1987d2ccce67ee5e4ea477f
+|      |      |      |      +--b6
+|      |      |      |      |      \--f4ea59829435f8300f55b53bb7aa38da78b93c
+|      |      |      |      +--b8
+|      |      |      |      |      \--bae8b2a4926f8338425a3ef6dadcc6928a6457
+|      |      |      |      +--ba
+|      |      |      |      |      \--79c34570afed7e66c8cbd6db7e90ef7acd10c0
+|      |      |      |      +--bc
+|      |      |      |      |      \--8f7fe4020d58eaac810305e003fa90ba92df92
+|      |      |      |      +--bd
+|      |      |      |      |      \--3c8287085d0906168ab7baa734e517b9be5d19
+|      |      |      |      |      \--ed8284e7e9adff710e3c5667c44675502ae40f
+|      |      |      |      +--bf
+|      |      |      |      |      \--9abf797b7e4f25f1ff2ae1f83d9d29a3298da6
+|      |      |      |      +--c1
+|      |      |      |      |      \--a2c715cac3c0dae61da89a40cbd92b3dfb9d46
+|      |      |      |      +--c4
+|      |      |      |      |      \--30ffa5ff47cff9b8304cc479b873c97aaa459c
+|      |      |      |      +--c8
+|      |      |      |      |      \--c360af4a158f6cd9f00bb683513be1182354e7
+|      |      |      |      +--cb
+|      |      |      |      |      \--1f5af1580e2903c8fc2b04142ca5d164228544
+|      |      |      |      +--d1
+|      |      |      |      |      \--212a1209a70d53e750fee60403f427f1917709
+|      |      |      |      +--d4
+|      |      |      |      |      \--5f8c185bb72f109359572d80439457bb710e09
+|      |      |      |      +--d7
+|      |      |      |      |      \--1fab471b77fbd5a98d873919ae83ffaa21dab1
+|      |      |      |      +--d8
+|      |      |      |      |      \--f43e912663c0e6430398f8cc2fae90920f2e94
+|      |      |      |      +--db
+|      |      |      |      |      \--3cd448ca6034a4624334beed705a57db49e7f6
+|      |      |      |      +--dc
+|      |      |      |      |      \--55cf88acb90884b0f1ba58b681b8377a15e112
+|      |      |      |      |      \--af9a6b8bbb72efccfeca1cfd1faf34f82ba19c
+|      |      |      |      +--dd
+|      |      |      |      |      \--fb065e281826d361f6d344976092e9e6bc1cf9
+|      |      |      |      +--e1
+|      |      |      |      |      \--174206adc25bde7acd709c0ca1c5fd490e6ce0
+|      |      |      |      +--e6
+|      |      |      |      |      \--9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|      |      |      |      +--e9
+|      |      |      |      |      \--6534fb27b68192f27f985d3879e173ec77adb8
+|      |      |      |      +--ea
+|      |      |      |      |      \--c32c893ac5453527336ddd388fe46b573b5767
+|      |      |      |      +--ef
+|      |      |      |      |      \--742d1e619b3cda5777b7161bca51b3b06ca8d7
+|      |      |      |      +--f2
+|      |      |      |      |      \--0116d01cc9c91ffc0e69870908bdaad2b33efb
+|      |      |      |      +--f4
+|      |      |      |      |      \--64d5a10e60dc6801407984cebb7417b59b9ec9
+|      |      |      |      +--f6
+|      |      |      |      |      \--3774f0f5660647a4d854c5ab071c9bc160a397
+|      |      |      |      |      \--cbdc0134f5ec8eb764cdabd6a802635546a28c
+|      |      |      |      +--f7
+|      |      |      |      |      \--353b05a600990edda121da9a78cfd1ef8ec9d0
+|      |      |      |      +--f8
+|      |      |      |      |      \--77edd3edb0da5f99caf867dc673b02a95b068e
+|      |      |      |      +--f9
+|      |      |      |      |      \--c4263ae98a1397d6a720d14e484c8009b35237
+|      |      |      |      +--fa
+|      |      |      |      |      \--b9a21e1fa8d59fa16b73beabcca6944c1b091a
+|      |      |      |      +--fc
+|      |      |      |      |      \--5feaf2d9fb8d91216c81148a4861c9661cdc4c
+|      |      |      |      +--info
+|      |      |      |      +--pack
+|      |      |      |      \--pack-60ab5ac0905f05ef8f74ecdefc4581b43a98884f.idx
+|      |      |      |      \--pack-60ab5ac0905f05ef8f74ecdefc4581b43a98884f.pack
+|      |      |      \--packed-refs
+|      |      |      +--refs
+|      |      |      +--heads
+|      |      |      |      \--master
+|      |      |      +--remotes
+|      |      |      |      +--origin
+|      |      |      |      \--HEAD
+|      |      |      |      \--master
+|      |      |      +--tags
+|      |      +--.idea
+|      |      |      \--.gitignore
+|      |      |      \--compiler.xml
+|      |      |      \--encodings.xml
+|      |      |      \--jarRepositories.xml
+|      |      |      \--misc.xml
+|      |      |      \--uiDesigner.xml
+|      |      |      \--vcs.xml
+|      |      |      \--workspace.xml
+|      |      \--pom.xml
+|      |      \--README.md
+|      |      +--src
+|      |      |      +--main
+|      |      |      |      +--java
+|      |      |      |      +--resources
+|      |      |      +--test
+|      |      |      +--java
+|      |      |      |      +--driver
+|      |      |      |      |      \--DriverSingleton.java
+|      |      |      |      +--model
+|      |      |      |      |      \--InstanceForm.java
+|      |      |      |      |      \--ProcessData.java
+|      |      |      |      +--page
+|      |      |      |      |      \--AbstractPage.java
+|      |      |      |      |      \--EmailHomePage.java
+|      |      |      |      |      \--GoogleCloudHomePage.java
+|      |      |      |      |      \--GoogleCloudPlatformPricingCalculatorPage.java
+|      |      |      |      |      \--GoogleSearchResultPage.java
+|      |      |      |      |      \--PricingCalculatorPage.java
+|      |      |      |      +--service
+|      |      |      |      |      \--InstanceCreator.java
+|      |      |      |      |      \--TestDataReader.java
+|      |      |      |      +--test
+|      |      |      |      |      \--CommonConditions.java
+|      |      |      |      |      \--GoogleCloudTest.java
+|      |      |      |      |      \--HomePagesAvailableTest.java
+|      |      |      |      +--utils
+|      |      |      |      |      \--JavascriptUtils.java
+|      |      |      |      |      \--PingUtils.java
+|      |      |      |      |      \--TabsUtils.java
+|      |      |      |      |      \--TestListener.java
+|      |      |      |      +--waits
+|      |      |      |      \--CustomConditions.java
+|      |      |      |      \--CustomWebElementWaits.java
+|      |      |      +--resources
+|      |      |      \--dev.properties
+|      |      |      \--log4j2.xml
+|      |      |      \--qa.properties
+|      |      |      \--testng-all.xml
+|      |      |      \--testng-smoke.xml
+|      |      +--target
+|      |      +--classes
+|      |      +--generated-test-sources
+|      |      |      +--test-annotations
+|      |      +--maven-status
+|      |      |      +--maven-compiler-plugin
+|      |      |      +--compile
+|      |      |      |      +--default-compile
+|      |      |      |      \--inputFiles.lst
+|      |      |      +--testCompile
+|      |      |      +--default-testCompile
+|      |      |      \--createdFiles.lst
+|      |      |      \--inputFiles.lst
+|      |      +--surefire-reports
+|      |      |      \--bullet_point.png
+|      |      |      \--collapseall.gif
+|      |      |      \--emailable-report.html
+|      |      |      \--failed.png
+|      |      |      \--index.html
+|      |      |      \--jquery.min.js
+|      |      |      +--junitreports
+|      |      |      |      \--TEST-test.GoogleCloudTest.xml
+|      |      |      \--navigator-bullet.png
+|      |      |      +--old
+|      |      |      |      \--index.html
+|      |      |      |      +--Smoke
+|      |      |      |      \--classes.html
+|      |      |      |      \--groups.html
+|      |      |      |      \--index.html
+|      |      |      |      \--main.html
+|      |      |      |      \--methods-alphabetical.html
+|      |      |      |      \--methods-not-run.html
+|      |      |      |      \--methods.html
+|      |      |      |      \--reporter-output.html
+|      |      |      |      \--Smoke.properties
+|      |      |      |      \--testng.xml.html
+|      |      |      |      \--toc.html
+|      |      |      \--passed.png
+|      |      |      \--skipped.png
+|      |      |      +--Smoke
+|      |      |      |      \--Smoke.html
+|      |      |      |      \--Smoke.xml
+|      |      |      \--TEST-TestSuite.xml
+|      |      |      \--testng-reports.css
+|      |      |      \--testng-reports.js
+|      |      |      \--testng-reports1.css
+|      |      |      \--testng-reports2.js
+|      |      |      \--testng-results.xml
+|      |      |      \--testng.css
+|      |      |      \--TestSuite.txt
+|      |      +--test-classes
+|      |      \--dev.properties
+|      |      +--driver
+|      |      |      \--DriverSingleton.class
+|      |      \--log4j2.xml
+|      |      +--model
+|      |      |      \--InstanceForm.class
+|      |      |      \--ProcessData.class
+|      |      +--page
+|      |      |      \--AbstractPage.class
+|      |      |      \--EmailHomePage.class
+|      |      |      \--GoogleCloudHomePage.class
+|      |      |      \--GoogleCloudPlatformPricingCalculatorPage.class
+|      |      |      \--GoogleSearchResultPage.class
+|      |      |      \--PricingCalculatorPage.class
+|      |      \--qa.properties
+|      |      +--service
+|      |      |      \--InstanceCreator.class
+|      |      |      \--TestDataReader.class
+|      |      +--test
+|      |      |      \--CommonConditions.class
+|      |      |      \--GoogleCloudTest.class
+|      |      |      \--HomePagesAvailableTest.class
+|      |      \--testng-all.xml
+|      |      \--testng-smoke.xml
+|      |      +--utils
+|      |      |      \--JavascriptUtils.class
+|      |      |      \--PingUtils.class
+|      |      |      \--TabsUtils.class
+|      |      |      \--TestListener.class
+|      |      +--waits
+|      |      \--CustomConditions$1.class
+|      |      \--CustomConditions$2.class
+|      |      \--CustomConditions$3.class
+|      |      \--CustomConditions.class
+|      |      \--CustomWebElementWaits.class
+|      \--pom.xml
+|      +--src
+|      |      +--main
+|      |      |      +--java
+|      |      |      +--resources
+|      |      +--test
+|      |      +--java
+|      |      |      +--driver
+|      |      |      |      \--DriverSingleton.java
+|      |      |      +--model
+|      |      |      |      \--InstanceForm.java
+|      |      |      |      \--ProcessData.java
+|      |      |      +--page
+|      |      |      |      \--AbstractPage.java
+|      |      |      |      \--EmailHomePage.java
+|      |      |      |      \--GoogleCloudHomePage.java
+|      |      |      |      \--GoogleCloudPlatformPricingCalculatorPage.java
+|      |      |      |      \--GoogleSearchResultPage.java
+|      |      |      |      \--PricingCalculatorPage.java
+|      |      |      +--service
+|      |      |      |      \--InstanceCreator.java
+|      |      |      |      \--TestDataReader.java
+|      |      |      +--test
+|      |      |      |      \--CommonConditions.java
+|      |      |      |      \--GoogleCloudTest.java
+|      |      |      |      \--HomePagesAvailableTest.java
+|      |      |      +--utils
+|      |      |      |      \--JavascriptUtils.java
+|      |      |      |      \--PingUtils.java
+|      |      |      |      \--TabsUtils.java
+|      |      |      |      \--TestListener.java
+|      |      |      +--waits
+|      |      |      \--CustomConditions.java
+|      |      |      \--CustomWebElementWaits.java
+|      |      +--resources
+|      |      \--dev.properties
+|      |      \--log4j2.xml
+|      |      \--testng-smoke.xml
+|      +--target
+|      +--classes
+|      +--generated-test-sources
+|      |      +--test-annotations
+|      +--maven-status
+|      |      +--maven-compiler-plugin
+|      |      +--compile
+|      |      |      +--default-compile
+|      |      |      \--inputFiles.lst
+|      |      +--testCompile
+|      |      +--default-testCompile
+|      |      \--createdFiles.lst
+|      |      \--inputFiles.lst
+|      +--surefire-reports
+|      |      \--2021-09-07T11-29-37_557-jvmRun1.dump
+|      +--test-classes
+|      \--dev.properties
+|      +--driver
+|      |      \--DriverSingleton.class
+|      +--model
+|      |      \--InstanceForm.class
+|      |      \--ProcessData.class
+|      +--page
+|      |      \--AbstractPage.class
+|      |      \--EmailHomePage.class
+|      |      \--GoogleCloudHomePage.class
+|      |      \--GoogleCloudPlatformPricingCalculatorPage.class
+|      |      \--GoogleSearchResultPage.class
+|      |      \--PricingCalculatorPage.class
+|      +--service
+|      |      \--InstanceCreator.class
+|      |      \--TestDataReader.class
+|      +--test
+|      |      \--CommonConditions.class
+|      |      \--GoogleCloudTest.class
+|      |      \--HomePagesAvailableTest.class
+|      \--testng-smoke.xml
+|      +--utils
+|      |      \--JavascriptUtils.class
+|      |      \--PingUtils.class
+|      |      \--TabsUtils.class
+|      |      \--TestListener.class
+|      +--waits
+|      \--CustomConditions$1.class
+|      \--CustomConditions$2.class
+|      \--CustomConditions$3.class
+|      \--CustomConditions.class
+|      \--CustomWebElementWaits.class
++--helloWebdriver
+|      +--.idea
+|      |      \--.gitignore
+|      |      \--compiler.xml
+|      |      \--jarRepositories.xml
+|      |      \--misc.xml
+|      |      \--uiDesigner.xml
+|      |      \--workspace.xml
+|      \--pom.xml
+|      +--src
+|      |      +--main
+|      |      |      +--java
+|      |      |      +--resources
+|      |      +--test
+|      |      +--java
+|      |      |      +--first_test
+|      |      |      |      \--WebDriverSeleniumHQTest.java
+|      |      |      +--hello_webdryver
+|      |      |      |      \--HelloWebDriver.java
+|      |      |      +--waits
+|      |      |      \--CustomConditions.java
+|      |      +--resources
+|      +--target
+|      +--generated-test-sources
+|      |      +--test-annotations
+|      +--test-classes
+|      \--HelloWebDriver.class
++--WebDriver
++--.git
+|      \--COMMIT_EDITMSG
+|      \--config
+|      \--description
+|      \--HEAD
+|      +--hooks
+|      |      \--applypatch-msg.sample
+|      |      \--commit-msg.sample
+|      |      \--fsmonitor-watchman.sample
+|      |      \--post-update.sample
+|      |      \--pre-applypatch.sample
+|      |      \--pre-commit.sample
+|      |      \--pre-merge-commit.sample
+|      |      \--pre-push.sample
+|      |      \--pre-rebase.sample
+|      |      \--pre-receive.sample
+|      |      \--prepare-commit-msg.sample
+|      |      \--push-to-checkout.sample
+|      |      \--update.sample
+|      \--index
+|      +--info
+|      |      \--exclude
+|      +--logs
+|      |      \--HEAD
+|      |      +--refs
+|      |      +--heads
+|      |      |      \--master
+|      |      +--remotes
+|      |      +--origin
+|      |      \--HEAD
+|      |      \--master
+|      +--objects
+|      |      +--27
+|      |      |      \--54a68ea64002f36169fcd95e82a79ee65edf77
+|      |      +--d9
+|      |      |      \--d229f49e61596ab7bab20ff369aea6ef033655
+|      |      +--info
+|      |      +--pack
+|      |      \--pack-094a98d35cf0a1a354c67304fa0dbe53efaeb66b.idx
+|      |      \--pack-094a98d35cf0a1a354c67304fa0dbe53efaeb66b.pack
+|      \--packed-refs
+|      +--refs
+|      +--heads
+|      |      \--master
+|      +--remotes
+|      |      +--origin
+|      |      \--HEAD
+|      |      \--master
+|      +--tags
++--.idea
+|      \--.gitignore
+|      \--.name
+|      \--compiler.xml
+|      \--jarRepositories.xml
+|      \--misc.xml
+|      \--uiDesigner.xml
+|      \--vcs.xml
+|      \--workspace.xml
+\--pom.xml
+\--README.md
++--src
+|      +--main
+|      |      +--java
+|      |      +--resources
+|      +--test
+|      +--java
+|      +--brudingiton
+|      |      +--enums
+|      |      |      \--BashColor.java
+|      |      +--page
+|      |      |      \--ChekResultCreatingNewPage.java
+|      |      |      \--CreateBinHomePage.java
+|      |      +--resources
+|      |      |      \--PasteCod.java
+|      |      +--test
+|      |      \--WebDriverPasteCodBinTest.java
+|      +--hardcore
+|      |      +--page
+|      |      |      \--CreateHomeGooglePageCalculator.java
+|      |      |      \--EmailEstimatePage.java
+|      |      |      \--HomePageGoogle.java
+|      |      |      \--SearchingResultPage.java
+|      |      +--resources
+|      |      |      \--GooglePageResources.java
+|      |      +--test
+|      |      \--GoogleCloudTest.java
+|      +--hurtmeplenty
+|      |      +--page
+|      |      |      \--ChekResultCreatingVM.java
+|      |      |      \--CreateGoogleHomePage.java
+|      |      |      \--HomePageGoogle.java
+|      |      |      \--SearchingResultPage.java
+|      |      +--resources
+|      |      |      \--PasteCodForGoogle.java
+|      |      +--test
+|      |      \--WebDriverGoogleTest.java
+|      +--icanwin
+|      |      +--page
+|      |      |      \--CheckResultPasteBinHomePage.java
+|      |      |      \--PasteBinHomePage.java
+|      |      +--test
+|      |      \--WebDriverPasteTest.java
+|      +--waits
+|      \--CustomConditions.java
++--target
++--generated-test-sources
+|      +--test-annotations
++--test-classes
++--brudingiton
+|      +--enums
+|      |      \--BashColor.class
+|      +--page
+|      |      \--ChekResultCreatingNewPage.class
+|      |      \--CreateBinHomePage.class
+|      +--resources
+|      |      \--PasteCod.class
+|      +--test
+|      \--WebDriverPasteCodBinTest.class
++--hardcore
+|      +--page
+|      |      \--CreateHomeGooglePageCalculator.class
+|      |      \--EmailEstimatePage.class
+|      |      \--HomePageGoogle.class
+|      |      \--SearchingResultPage.class
+|      +--resources
+|      |      \--GooglePageResources.class
+|      +--test
+|      \--GoogleCloudTest.class
++--hurtmeplenty
+|      +--page
+|      |      \--CreateGoogleHomePage.class
+|      |      \--HomePageGoogle.class
+|      |      \--SearchingResultPage.class
+|      +--resources
+|      |      \--PasteCodForGoogle.class
+|      +--test
+|      \--WebDriverGoogleTest.class
++--icanwin
+|      +--page
+|      |      \--CheckResultPasteBinHomePage.class
+|      |      \--PasteBinHomePage.class
+|      +--test
+|      \--WebDriverPasteTest.class
++--waits
+\--CustomConditions$1.class
+\--CustomConditions$2.class
+\--CustomConditions.class

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class RandomJavaTextContainer {
-    private static String separator = " ";
+    public static String separator = " ";
     private ArrayList<Integer> numbers;
     private int numbersCount;
 
@@ -19,7 +19,7 @@ public class RandomJavaTextContainer {
         this.numbersCount = numbers.size();
     }
 
-    private ArrayList<Integer> getNumbers() {
+    public ArrayList<Integer> getNumbers() {
         return numbers;
     }
 
@@ -33,18 +33,18 @@ public class RandomJavaTextContainer {
         }
     }
 
-    private void add(Integer number) {
+    public void add(Integer number) {
         numbers.add(number);
         numbersCount++;
     }
 
-    private void sort() {
+    public void sort() {
         numbers.sort(Comparator.comparingInt(o -> o)
         );
     }
 
     @Override
-    private String toString() {
+    public String toString() {
         StringBuilder numbersInString = new StringBuilder();
         for (int number : numbers) {
             numbersInString.append(number);

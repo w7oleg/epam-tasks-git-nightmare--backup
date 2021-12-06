@@ -49,7 +49,7 @@ public class Student {
             throws StudentWithoutAcademicSubjectsException {
         if (studentSubjects.isEmpty()) {
             throw new StudentWithoutAcademicSubjectsException("У студента " +
-                    getName() + " " + getSurname() + " с номером студенческого билета "
+                    getName() + " " + getSurname() + " с Фамилией "
                     + getStudentIDNumber() + " отсутствуют академические предметы!");
         }
         return studentSubjects;

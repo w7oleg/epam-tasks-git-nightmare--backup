@@ -42,7 +42,7 @@ public class CodeInitializer extends Initializer {
                 EnumSet.of(StudentSubject.TOE, StudentSubject.ENGLISH, StudentSubject.GERMAN, StudentSubject.PHILOSOPHY)));
         university.getFaculties().get(1).getGroup("TG4").setStudent(new Student("Petr", "Rjabushko",
                 EnumSet.of(StudentSubject.TOE, StudentSubject.ENGLISH, StudentSubject.GERMAN, StudentSubject.PHILOSOPHY)));
-        university.getFaculties().get(1).getGroup("TG4").setStudent(new Student("Pavel", "",
+        university.getFaculties().get(1).getGroup("TG4").setStudent(new Student("Pavel", "Egorov",
                 EnumSet.of(StudentSubject.TOE, StudentSubject.ENGLISH, StudentSubject.GERMAN, StudentSubject.PHILOSOPHY)));
         university.getFaculties().get(1).getGroup("ET2").setStudent(new Student("Oleg", "Olegov",
                 EnumSet.of(StudentSubject.TOE, StudentSubject.ENGLISH, StudentSubject.GERMAN, StudentSubject.PHONETICS)));
