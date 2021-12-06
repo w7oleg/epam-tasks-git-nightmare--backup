@@ -1,7 +1,7 @@
-package javaStageTwo.auction.models.participants;
+package javaStageTwo.threads.models.participants;
 
-import javaStageTwo.auction.console.Printer;
-import javaStageTwo.auction.models.lots.Lot;
+import javaStageTwo.threads.console.Printer;
+import javaStageTwo.threads.models.lots.Lot;
 
 
 import java.util.List;

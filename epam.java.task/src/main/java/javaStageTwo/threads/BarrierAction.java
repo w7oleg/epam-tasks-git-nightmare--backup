@@ -1,8 +1,8 @@
-package javaStageTwo.auction;
+package javaStageTwo.threads;
 
 
-import javaStageTwo.auction.console.Printer;
-import javaStageTwo.auction.models.participants.Participant;
+import javaStageTwo.threads.console.Printer;
+import javaStageTwo.threads.models.participants.Participant;
 
 import java.util.List;
 

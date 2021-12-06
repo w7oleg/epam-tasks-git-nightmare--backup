@@ -1,4 +1,4 @@
-package javaStageTwo.auction.models.lots;
+package javaStageTwo.threads.models.lots;
 
 public class Lot {
     private int id;

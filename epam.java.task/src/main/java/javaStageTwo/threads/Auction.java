@@ -1,9 +1,9 @@
-package javaStageTwo.auction;
+package javaStageTwo.threads;
 
-import javaStageTwo.auction.console.Printer;
-import javaStageTwo.auction.exceptions.OnlyOneParticipantException;
-import javaStageTwo.auction.models.lots.Lot;
-import javaStageTwo.auction.models.participants.Participant;
+import javaStageTwo.threads.console.Printer;
+import javaStageTwo.threads.exceptions.OnlyOneParticipantException;
+import javaStageTwo.threads.models.lots.Lot;
+import javaStageTwo.threads.models.participants.Participant;
 
 import java.util.*;
 import java.util.concurrent.CyclicBarrier;

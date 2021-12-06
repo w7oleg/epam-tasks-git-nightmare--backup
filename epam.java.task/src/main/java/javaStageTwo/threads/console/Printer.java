@@ -1,4 +1,4 @@
-package javaStageTwo.auction.console;
+package javaStageTwo.threads.console;
 
 public class Printer {
     public void payWinnerOfLot(int idPotentialWinner, int currentPriceLot, int cashAfterPay) {
